@@ -31,6 +31,9 @@
   background-color: #222d32;
   box-shadow: inset -2px -26px 34px -37px rgb(255 255 255);
 }
+.skin-anvil-default .main-header .navbar .nav > li > a > span.menu-icon-text {
+  padding-left: 3px;
+}
 .skin-anvil-default .main-header .navbar .sidebar-toggle {
   color: #333333;
 }
