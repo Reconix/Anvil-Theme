@@ -58,15 +58,24 @@
 .skin-anvil-default .main-header .logo:hover {
   background-color: #fcfcfc;
 }
+@media (max-width: 990px) {
+  .skin-anvil-default .content-header > h1 {
+    height: 33px;
+    font-size: 14px;
+  }
+}
 @media (max-width: 767px) {
   .skin-anvil-default .main-header .logo {
-    background-color: #222222;
-    color: #ffffff;
-    border-bottom: 0 solid transparent;
+    background-color: #fff;
+    color: #1f1f1f;
+    border-bottom: 1px solid #e3e3e3;
     border-right: none;
   }
   .skin-anvil-default .main-header .logo:hover {
-    background-color: #1f1f1f;
+    /* background-color: #1f1f1f;*/
+  }
+  .skin-anvil-default .content-header {
+    display: none;
   }
 }
 .skin-anvil-default .main-header li.user-header {
@@ -114,8 +123,13 @@
 .skin-anvil-default .user-panel > .image > img {
 
 }
+.skin-anvil-default .user-img {
+  border-radius: 10%;
+  border: 1px solid #9b9b9bbf;
+  box-shadow: 0px 1px 1px 1px rgb(0 0 0 / 48%);
+}
 .skin-anvil-default .user-img-shadow {
-  box-shadow: 0px 0px 9px 2px rgb(62 62 62 / 55%);
+  box-shadow: 0px 0px 6px 1px rgb(122 122 122 / 45%);
 }
 .skin-anvil-default .sidebar-menu > li.header {
   color: #4b646f;
