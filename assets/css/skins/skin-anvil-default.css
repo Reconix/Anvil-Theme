@@ -27,8 +27,9 @@
 .skin-anvil-default .main-header .navbar .nav .open > a:hover,
 .skin-anvil-default .main-header .navbar .nav .open > a:focus,
 .skin-anvil-default .main-header .navbar .nav > .active > a {
-  background: #ffffff;
-  color: #999999;
+  color: #fff;
+  background-color: #222d32;
+  box-shadow: inset -2px -26px 34px -37px rgb(255 255 255);
 }
 .skin-anvil-default .main-header .navbar .sidebar-toggle {
   color: #333333;
