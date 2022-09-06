@@ -53,6 +53,17 @@
   border-left: 1px solid #eee;
   border-right-width: 0;
 }
+.skin-anvil-default .navbar-custom-menu > .navbar-nav > li > .dropdown-menu {
+  border: 1px solid #adadad8a;
+  box-shadow: 0px 2px 8px 1px #02040624;
+}
+.skin-anvil-default .navbar-nav > .user-menu .user-image {
+  border-radius: 4px;
+}
+.skin-anvil-default .navbar-nav > .user-menu > .dropdown-menu > li.user-header > img {
+  border-radius: 4px;
+  border:2px solid #4b5458;
+}
 .skin-anvil-default .main-header .logo {
   background-color: #ffffff;
   color: #333333;
@@ -94,19 +105,20 @@
 }
 .skin-anvil-default .content-header > h1 {
   font-family: 'Exo 2',Source Sans Pro, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   color: #eee;
-  line-height: 48px;
+  line-height: 40px;
   padding-left: 14px;
+  box-shadow: inset -2px -27px 34px -37px #010202;
 }
 .skin-anvil-default .content-header > h1 > small {
-  font-size: 14px;
+  font-size: 13px;
   color: #bbb;
-  line-height: 48px;
+  line-height: 40px;
   padding-left: 4px;
 }
 .skin-anvil-default .content-header > .breadcrumb {
-  top: 10px;
+  top: 5px;
 }
 .skin-anvil-default .content-header > .breadcrumb > .active {
   color: #999;
@@ -120,15 +132,19 @@
   background-color: #222d32;
 }
 /* User Panel */
+.skin-anvil-default .user-panel {
+  box-shadow: inset -2px -27px 34px -37px #010202;
+}
 .skin-anvil-default .user-panel > .info,
 .skin-anvil-default .user-panel > .info > a {
   color: #fff;
 }
 .skin-anvil-default .user-panel > .image > img {
-
+  border-radius: 4px;
+  border: 1px solid #4b5458;
 }
 .skin-anvil-default .user-img {
-  border-radius: 10%;
+  border-radius: 4px;
   border: 1px solid #9b9b9bbf;
   box-shadow: 0px 1px 1px 1px rgb(0 0 0 / 48%);
 }
@@ -136,6 +152,7 @@
   box-shadow: 0px 0px 6px 1px rgb(122 122 122 / 45%);
 }
 .skin-anvil-default .sidebar-menu > li.header {
+  border: 1px solid #4b545838;
   color: #4b646f;
   background: #1a2226;
 }
@@ -146,8 +163,10 @@
 .skin-anvil-default .sidebar-menu > li:hover > a,
 .skin-anvil-default .sidebar-menu > li.active > a,
 .skin-anvil-default .sidebar-menu > li.menu-open > a {
+  padding-left: 16px;
   color: #ffffff;
   background: #1e282c;
+  box-shadow: inset -2px -27px 34px -37px #010202;
 }
 .skin-anvil-default .sidebar-menu > li.active > a {
   border-left-color: #ffffff;
@@ -156,10 +175,10 @@
   padding-left: 0px;
 }
 .skin-anvil-default .sidebar-menu .treeview-menu > li:hover {
-  border-top: 1px solid #42516063;
-  border-bottom: 1px solid #42516063;
+  /* border-top: 1px solid #42516063;
+  border-bottom: 1px solid #42516063;*/
   padding-left: 32px;
-  background: #222d32a1;
+  background: #192124;
 }
 .skin-anvil-default .sidebar-menu .treeview-menu > li {
   border-bottom: 1px solid #26323e;
@@ -183,6 +202,11 @@
 .skin-anvil-default .sidebar-menu .treeview-menu > li.active > a,
 .skin-anvil-default .sidebar-menu .treeview-menu > li > a:hover {
   color: #ffffff;
+}
+.skin-anvil-default .treeview-menu > li > a > .fa,
+.treeview-menu > li > a > .glyphicon,
+.treeview-menu > li > a > .ion {
+    width: 15px;
 }
 .skin-anvil-default .sidebar-form {
   border-radius: 3px;
